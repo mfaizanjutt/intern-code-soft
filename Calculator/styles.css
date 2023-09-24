@@ -1,0 +1,34 @@
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    border: 1px solid gray;
+    padding: 35px;
+    background: rgb(51,207,200);
+background: linear-gradient(131deg, rgba(51,207,200,0.963202468487395) 14%, rgba(48,169,209,1) 17%, rgba(16,229,203,1) 54%, rgba(4,199,239,1) 68%, rgba(4,150,239,1) 69%, rgba(4,239,234,1) 85%);
+
+}
+.calculator input{
+    padding: 15px 15px;
+    font-size: larger;
+    font-weight: 400;
+}
+
+.display {
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
